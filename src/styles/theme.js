@@ -2,13 +2,12 @@ const theme = {};
 
 theme.PALLETE = {
     primary: {
-        main: "#EE3333",
-        secondary: "#EE3333",
-        warning: "#E49804",
+        main: "#ffd159",
+        sub: "#fff4d8",
     },
+    black : "#333",
     secondary: "#f1ebf5",
     white: "#fff",
-    // point: {},
     gray: {
         100: "#F1EBF5",
         200: "#AEA8B2",
@@ -22,13 +21,14 @@ theme.PALLETE = {
 }
 
 theme.FONT_SIZE = {
-    h1: "55px",
-    h2: "40px",
-    h3: "30px",
-    h4: "21px",
-    h5: "18px",
-    h6: "16px",
-    h7: "12px",
+    h1: "38px",
+    h2: "30px",
+    h3: "22px",
+    h4: "18px",
+    h5: "16px",
+    h6: "14px",
+    h7: "10px",
+    h8: "7px",
 }
 
 theme.FONT_WEIGHT = {
@@ -38,7 +38,6 @@ theme.FONT_WEIGHT = {
     
 }
 
-// 12px씩 줄이기
 theme.FONT_LINE = {
     h1: "50px",
     h2: "42px",

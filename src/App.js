@@ -1,12 +1,11 @@
 import './App.css';
-import GlobalStyle from './globals/global-style';
-import Styled08 from './pages/docx/Styled08';
-import Styled09 from './pages/docx/Styled09';
+import Styled09 from './pages/docs/Styled09';
+import GlobalStyle from './styles/global-style';
 
 function App() {
   return (
     <>
-    <GlobalStyle />
+      <GlobalStyle />
       <Styled09 />
     </>
   );

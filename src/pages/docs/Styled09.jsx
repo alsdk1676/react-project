@@ -4,10 +4,11 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import S from './style';
 
 const Styled09 = () => {
+  
   return (
-    <S.FontAwesomeIcon>
-      <FontAwesomeIcon icon={faUser} spin/>
-    </S.FontAwesomeIcon>
+    <S.FontAwesomeWrap>
+      <FontAwesomeIcon icon={faUser} spin />
+    </S.FontAwesomeWrap>
   );
 };
 

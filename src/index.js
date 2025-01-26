@@ -4,15 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from 'styled-components';
-import theme from './globals/theme';
-
+import theme from './styles/theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <ThemeProvider theme={theme}>
-    <App />
-  </ThemeProvider>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </>
 );
 
